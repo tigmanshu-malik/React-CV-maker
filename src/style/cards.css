@@ -1,0 +1,49 @@
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 50%;
+    font-size: 20px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.05);
+}
+
+
+.card form{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+}
+
+input{
+
+    width: 50%;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+button{
+
+    width: 20%
+}
+
+textarea{
+
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 90%;
+}
+
